@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="CV">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Danila Zakharchuk - CV</title>
+</head>
+
+<body>
+<main>
+    <div class="cv">
+        <header class="header">
+    <img src="./img/photo.jpg" alt="Photo of Danila Zakharchuk" class="header__photo">
+    <h1 class="header__name">Danila Zakharchuk</h1>
+</header>
+        <section class="contact">
+            <h2 class="section__title">Contact Information</h2>
+            <ul class="contact__list">
+                <li class="contact__item">Email: <a href="mailto:zaharchuk.danila18@gmail.com">zaharchuk.danila18@gmail.com</a></li>
+                <li class="contact__item">Telegram: <a href="https://t.me/mitaforost">@mitaforost</a></li>
+                <li class="contact__item">LinkedIn: <a href="https://www.linkedin.com/in/danila-zakcharchuk-7177a42b3/">linkedin.com</a></li>
+                <li class="contact__item">GitHub: <a href="https://github.com/Mitaforost">Mitaforost</a></li>
+                <li class="contact__item">Discord: Mitaforost#2744</li>
+            </ul>
+        </section>
+        <section class="about">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__text">I am 22 years old. I am studying web development and graphic design. I maintain a healthy lifestyle. I successfully completed military service and gained invaluable experience. I actively learn and apply the knowledge I acquire in practice. I have no bad habits and constantly strive for self-improvement.</p>
+        </section>
+        <section class="skills">
+            <h2 class="section__title">Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item"><strong>Programming Languages:</strong> C#, Python, JavaScript</li>
+                <li class="skills__item"><strong>Version Control:</strong> Git, GitHub, Gitlab</li>
+                <li class="skills__item"><strong>Tools:</strong> VSCode, intellij IDEA</li>
+                <li class="skills__item"><strong>Graphic programs:</strong> Photoshop, Illustrator, InDesign, CorelDRAW, Figma</li>
+            </ul>
+        </section>
+        <section class="code-example">
+            <h2 class="section__title">Code Example</h2>
+            <p class="code-example__text"><a href="https://www.codewars.com/kata/554e4a2f232cdd87d9000038/train/javascript">Exercise on codewars</a></p>
+            <pre class="code">
+<code>
+function dnaStrand(dna) {
+    const complements = {
+        'A': 'T',
+        'T': 'A',
+        'C': 'G',
+        'G': 'C'
+    };
+    return dna.split('').map(nucl => complements[nucl]).join('');
+}
+</code>
+            </pre>
+        </section>
+        <section class="experience">
+            <h2 class="section__title">Work Experience</h2>
+            <div class="job">
+                <h3 class="job__title">2021-2023</h3>
+                <h4 class="job__subtitle">Worked in the army under contract</h4>
+                <p class="job__text">Finished service with the rank of <strong>Senior Sergeant</strong>. Held the position of <strong>Assistant to the Chief of the Apparatus Room</strong>.</p>
+            </div>
+            <div class="job">
+                <h3 class="job__title">2024</h3>
+                <h4 class="job__subtitle">Worked at the Stuttgart Center</h4>
+                <p class="job__text">Worked as a <strong>content manager</strong> for marketplaces and a <strong>website administrator</strong>.</p>
+            </div>
+        </section>
+        <section class="education">
+            <h2 class="section__title">Education</h2>
+            <div class="education__item">
+                <div class="education__header">
+                    <h3 class="education__period">2021-2024</h3>
+                    <h4 class="education__degree">Software engineer</h4>
+                </div>
+                <p class="education__institution"><strong>FKT</strong>, Information technology software</p>
+                <p class="education__school">IIT BSUIR</p>
+            </div>
+            <div class="education__item">
+                <div class="education__header">
+                    <h3 class="education__period">2017-2021</h3>
+                    <h4 class="education__degree">Technician-programmer</h4>
+                </div>
+                <p class="education__institution">Information technology software</p>
+                <p class="education__school">College of Business and Law</p>
+            </div>
+        </section>
+        <section class="languages">
+            <h2 class="section__title">Languages</h2>
+            <ul class="languages__list">
+                <li class="languages__item"><strong>Russian</strong> - native language.</li>
+                <li class="languages__item"><strong>English</strong> - A2.</li>
+            </ul>
+        </section>
+    </div>
+</main>
+</body>
+</html>

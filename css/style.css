@@ -1,0 +1,199 @@
+*, ::after, ::before, input {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+.cv {
+    background-color: #fff;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    box-sizing: border-box
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.header__photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    margin-bottom: 10px
+}
+
+.header__name {
+    font-size: 36px;
+    margin: 0
+}
+
+.section__title {
+    font-size: 28px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+.contact__list, .languages__list, .skills__list {
+    list-style: none;
+    padding: 0
+}
+
+.contact__item, .languages__item, .skills__item {
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.about__text, .code-example__text, .education__institution, .education__school, .job__text {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 18px
+}
+
+.code-example__text a {
+    color: #007bff;
+    text-decoration: none
+}
+
+.code-example__text a:hover {
+    text-decoration: underline
+}
+
+.code {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .1)
+}
+
+.education__item, .job {
+    margin-bottom: 25px;
+    border-left: 3px solid #007bff;
+    padding-left: 15px
+}
+
+.education__period, .job__title {
+    font-weight: 700;
+    font-size: 20px
+}
+
+.education__degree, .job__subtitle {
+    font-style: italic;
+    font-size: 18px;
+    color: #555
+}
+
+.education__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px
+}
+
+.languages__list {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.languages__item {
+    margin-right: 20px;
+    font-size: 18px
+}
+
+@media (max-width: 768px) {
+    .cv {
+        padding: 15px
+    }
+
+    .header__photo {
+        width: 120px;
+        height: 120px
+    }
+
+    .header__name {
+        font-size: 28px
+    }
+
+    .section__title {
+        font-size: 24px
+    }
+
+    .about__text, .code-example__text, .contact__item, .education__institution, .education__school, .job__text, .languages__item, .skills__item {
+        font-size: 16px
+    }
+
+    .code {
+        font-size: 14px
+    }
+
+    .education__period, .job__title {
+        font-size: 18px
+    }
+
+    .education__degree, .job__subtitle {
+        font-size: 16px
+    }
+
+    .languages__item {
+        margin-right: 15px
+    }
+}
+
+@media (max-width: 480px) {
+    .header__photo {
+        width: 100px;
+        height: 100px
+    }
+
+    .header__name {
+        font-size: 24px
+    }
+
+    .section__title {
+        font-size: 20px
+    }
+
+    .about__text, .code-example__text, .contact__item, .education__institution, .education__school, .job__text, .languages__item, .skills__item {
+        font-size: 14px
+    }
+
+    .code {
+        font-size: 12px
+    }
+
+    .education__period, .job__title {
+        font-size: 16px
+    }
+
+    .education__degree, .job__subtitle {
+        font-size: 14px
+    }
+
+    .languages__item {
+        margin-right: 10px
+    }
+}
