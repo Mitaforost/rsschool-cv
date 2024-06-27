@@ -1,1 +1,1 @@
-https://Mitaforost.github.io/rsschool-cv/cv
+https://Mitaforost.github.io/rsschool-cv/index.html
