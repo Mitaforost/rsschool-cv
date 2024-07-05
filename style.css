@@ -138,6 +138,7 @@ code {
     border-radius: 5px;
     font-family: "Courier New", Courier, monospace;
     white-space: pre-wrap;
+    margin-top: 20px
 }
 
 .about__text, .education__institution, .job__text {
@@ -158,19 +159,22 @@ code {
 .education__period, .job__title {
     font-weight: 700;
     font-size: 18px;
-    color: #333
+    color: #333;
+    margin-bottom: 20px
 }
 
 .education__degree, .job__subtitle {
-    font-style: italic;
+    font-weight: 600;
     font-size: 16px;
-    color: #666
+    color: #666;
+    margin-bottom: 10px
 }
 
 .footer {
     margin-top: 20px;
     border-top: 3px solid #4a90e2;
-    padding-top: 5px
+    padding-top: 5px;
+    padding-bottom: 20px
 }
 
 .footer__inner {
@@ -193,8 +197,19 @@ code {
 }
 
 @media (max-width: 768px) {
+    body {
+        width: 100%;
+        background: #fff
+    }
+
     .cv {
-        padding: 0 15px
+        padding: 0 15px;
+        border-radius: 0;
+        box-shadow: none
+    }
+
+    .header {
+        padding-top: 20px
     }
 
     .header__photo {
