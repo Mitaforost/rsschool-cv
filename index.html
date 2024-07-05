@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV">
+    <link rel="stylesheet" href="style.css">
+    <title>Danila Zakharchuk - CV</title>
 </head>
 <body>
+<div class="cv">
+    <header class="header">
+        <img src="./photo.jpg" alt="Photo of Danila Zakharchuk" class="header__photo">
+        <h1 class="header__name">Danila Zakharchuk</h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link" data-section="about">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link" data-section="skills">Skills</a></li>
+                <li class="nav__item"><a href="#" class="nav__link" data-section="experience">Experience</a></li>
+                <li class="nav__item"><a href="#" class="nav__link" data-section="education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section about" id="about">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__text">I am 22 years old, studying web development and graphic design. I maintain a healthy
+                lifestyle, completed military service, and constantly strive for self-improvement.</p>
+            <ul class="contact__list">
+                <li class="contact__item"><i>Email:</i> <a href="mailto:zaharchuk.danila18@gmail.com">zaharchuk.danila18@gmail.com</a>
+                </li>
+                <li class="contact__item"><i>Telegram:</i> <a href="https://t.me/mitaforost">@mitaforost</a></li>
+                <li class="contact__item"><i>LinkedIn:</i> <a
+                        href="https://www.linkedin.com/in/danila-zakcharchuk-7177a42b3/">LinkedIn</a></li>
+                <li class="contact__item"><i>GitHub:</i> <a href="https://github.com/Mitaforost">GitHub</a></li>
+                <li class="contact__item"><i>Discord:</i> Mitaforost#2744</li>
+            </ul>
+        </section>
+        <section class="section skills" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item"><i>Programming Languages:</i> C#, Python, JavaScript</li>
+                <li class="skills__item"><i>Version Control:</i> Git, GitHub, Gitlab</li>
+                <li class="skills__item"><i>Tools:</i> VSCode, intellij IDEA</li>
+                <li class="skills__item"><i>Graphic programs:</i> Photoshop, Illustrator, InDesign, CorelDRAW, Figma
+                </li>
+            </ul>
+        </section>
+        <section class="section experience" id="experience">
+            <h2 class="section__title">Experience</h2>
+            <div class="job">
+                <h3 class="job__title">2021-2023</h3>
+                <h4 class="job__subtitle">Worked in the army under contract</h4>
+                <p class="job__text">Finished service with the rank of <strong>Senior Sergeant</strong>. Held the
+                    position of <strong>Assistant to the Chief of the Apparatus Room</strong>.</p>
+            </div>
+            <div class="job">
+                <h3 class="job__title">2024</h3>
+                <h4 class="job__subtitle">Worked at the Stuttgart Center</h4>
+                <p class="job__text">Worked as a <strong>content manager</strong> for marketplaces and a <strong>website
+                    administrator</strong>.</p>
+            </div>
+        </section>
+        <section class="section education" id="education">
+            <h2 class="section__title">Education</h2>
+            <div class="education__item">
+                <h3 class="education__period">2021-2024</h3>
+                <h4 class="education__degree">Software Engineer</h4>
+                <p class="education__institution"><strong>FKT</strong>, Information technology software, IIT BSUIR</p>
+            </div>
+            <div class="education__item">
+                <h3 class="education__period">2017-2021</h3>
+                <h4 class="education__degree">Technician-programmer</h4>
+                <p class="education__institution">Information technology software, College of Business and Law</p>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__inner">
+                <a href="https://github.com/Mitaforost" class="footer__link">GitHub</a>
+                <p class="footer__date">2024</p>
+                <a href="https://rs.school/courses/javascript-ru" class="footer__link">
+                    <img src="./rs-logo.png" alt="rs-logo" class="footer__img">
+                </a>
+            </div>
+        </footer>
+    </main>
+</div>
+<script src="./script.js"></script>
 </body>
 </html>
