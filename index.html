@@ -50,18 +50,18 @@
             </a>
             <pre>
                 <code>
-                function dnaStrand(dna) {
-                    // Creating an object
-                    const complements = {
-                        'A': 'T',
-                        'T': 'A',
-                        'C': 'G',
-                        'G': 'C'
-                    };
-                    // Use map to replace each character by a key and combine the result back into a string
-                    return dna.split('').map(nucl => complements[nucl]).join('');
-                }
-                </code>
+function dnaStrand(dna) {
+    // Creating an object
+    const complements = {
+        'A': 'T',
+        'T': 'A',
+        'C': 'G',
+        'G': 'C'
+    };
+    // Use map to replace each character by a key and combine the result back into a string
+    return dna.split('').map(nucl => complements[nucl]).join('');
+}
+    </code>
             </pre>
             <a href="https://github.com/Mitaforost/projects" class="skills__link">
                 My projects
