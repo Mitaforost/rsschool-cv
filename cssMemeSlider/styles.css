@@ -111,13 +111,18 @@ body {
 }
 
 @media (max-width: 768px) {
-    .caption {
-        font-size: 14px;
-        bottom: 10px;
-        left: 10px;
+    .slider__inner {
+        height: 400px;
     }
-
     .slider__img {
         height: 300px; /* Уменьшаем высоту изображения для мобильных устройств */
+    }
+}
+@media (max-width: 550px) {
+    .slider__pagination {
+        bottom: 80px;
+        right: 50%;
+        transform: translateX(50%);
+        display: flex;
     }
 }
