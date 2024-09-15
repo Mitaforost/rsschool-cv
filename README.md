@@ -1,1 +1,1 @@
-https://Mitaforost.github.io/rsschool-cv/index.html
+https://Mitaforost.github.io/rsschool-cv/cssMemeSlider/index.html
