@@ -115,7 +115,7 @@ body {
         height: 400px;
     }
     .slider__img {
-        height: 300px; /* Уменьшаем высоту изображения для мобильных устройств */
+        height: 300px;
     }
 }
 @media (max-width: 550px) {
