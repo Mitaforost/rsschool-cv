@@ -31,7 +31,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "gh-pages",
-    "last_opened_file_path": "F:/Resume/Resume",
+    "last_opened_file_path": "F:/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -46,6 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1720158454735</updated>
       <workItem from="1720158455691" duration="206000" />
+      <workItem from="1720173214575" duration="635000" />
+      <workItem from="1720551629270" duration="68000" />
     </task>
     <servers />
   </component>
